@@ -237,3 +237,10 @@ ul {
     color: #FFF;
 }
 /* end of portfolio*/
+
+
+/*--blockbox*/
+
+.header{
+display:flex;
+}
