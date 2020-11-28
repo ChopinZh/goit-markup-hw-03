@@ -34,7 +34,7 @@ ul {
 }
 
 .navigation-text{
-    color:var(--main-color);
+    color:var(--main-color);  
     letter-spacing: 0.03em;
 }
 
@@ -56,37 +56,16 @@ ul {
     list-style-type: none;
 }
 
-.navigation-text:hover,
+
 .contacts-header-item .link:hover,
 .contacts-header-item .link:focus{
     color: #2196F3;
  }
 
- .header{
-     display: flex;
-     align-items: center;
+ .current{
+     color: #2196F3;
  }
 
- .header .logo{
-     padding-right: 70px;
- }
-
- .navigation{
-     display: flex;
-     align-items: center;
- }
-
- .navigation-list-item{
-     display: flex;
- }
-
- .email-header,
- .phone-header{
-     font-weight: 600;
-     font-size: 12px;
-     line-height:1.33;
-     letter-spacing:  0.1em;
- }
 /*==========End Header=========*/
 /*===========Booking =====*/
 
@@ -220,6 +199,13 @@ ul {
 
 .button-name{
     background-color:#F5F4FA;
+    font-family: var(--main-font);
+    font-style:normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color:var(--main-color);
 }
 
 .button-name:hover{
@@ -227,15 +213,6 @@ ul {
     color:#FFFFFF;
 }
 
-.button-item {
-    font-family: var(--main-font);
-    font-style:normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.03em;
-    color:var(--main-color);
-}
   
 .project-name{
     font-family: var(--main-font);
@@ -262,9 +239,3 @@ ul {
     color: #FFF;
 }
 /* end of portfolio*/
-
-
-/*--blockbox*/
-
-
-
