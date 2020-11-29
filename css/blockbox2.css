@@ -1,4 +1,3 @@
-
 :root{
     --main-font:'Roboto', sans-serif;
     --secondary-font:'Raleway', sans-serif;
@@ -35,7 +34,7 @@ ul {
 }
 
 .navigation-text{
-    color:var(--main-color);
+    color:var(--main-color);  
     letter-spacing: 0.03em;
 }
 
@@ -57,26 +56,15 @@ ul {
     list-style-type: none;
 }
 
-.navigation-text:hover,
+
 .contacts-header-item .link:hover,
 .contacts-header-item .link:focus{
     color: #2196F3;
  }
 
  .current{
-    color: #2196F3;
+     color: #2196F3;
  }
-
- .email-header,
- .phone-header{
-     font-weight: 600;
-     font-size: 12px;
-     line-height:1.33;
-     letter-spacing:  0.1em;
- }
-/*=======*/
-
- /*===========*/
 
 /*==========End Header=========*/
 /*===========Booking =====*/
@@ -211,6 +199,13 @@ ul {
 
 .button-name{
     background-color:#F5F4FA;
+    font-family: var(--main-font);
+    font-style:normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color:var(--main-color);
 }
 
 .button-name:hover{
@@ -218,15 +213,6 @@ ul {
     color:#FFFFFF;
 }
 
-.button-item {
-    font-family: var(--main-font);
-    font-style:normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.03em;
-    color:var(--main-color);
-}
   
 .project-name{
     font-family: var(--main-font);
@@ -253,66 +239,3 @@ ul {
     color: #FFF;
 }
 /* end of portfolio*/
-
-
-/*--blockbox*/
-
-h1, 
-h2,
-h3{
-    margin:0;
-}
-
-ul{
-    margin:0;
-    padding: 0%;
-}
-
-p{margin:0}
-
-img{
-    display: block;
-}
-
-.header{
-    display:flex;
-    align-items: center;}
-
-.navigation{
-    display: flex; 
-    align-items: center;
-}
-
-.contacts-header,
-.list-header{
-    display: flex;
-}
-
-.header .logo{
-    margin-right: 70px;
-}
-
-.navigation-list-item:not(:last-child){
-    margin-right:50px;
-}
-
-
-.header .adress{
-    margin-left:auto;
-}
-
-.email-header{
-    margin-right: 50px;
-}
-
-/*continer moczhno i na header*/
-.header{
-    width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-.header{
-    padding-top:30px;
-    padding-bottom:30px;
-}
-

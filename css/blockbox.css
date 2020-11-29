@@ -274,16 +274,49 @@ img{
     display: block;
 }
 
-.header{
-    display:flex;
-    align-items: center;}
 
-.navigation{
-    display: flex; 
+------ as alesha
+
+.header{
+    padding-top:24px;
+    padding-bottom:25px;
+}
+
+.header .container{
+    display: flex;
     align-items: center;
 }
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
-.contacts-header,
-.list-header{
+
+.header .logo{
+    margin-right:93px;
+}
+
+.header .contacts-header{
+    margin-left:auto;
+    margin-right: 50px;
+
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation-list-item:not(:last-child){
+    margin-right: 50px;
+}
+
+.navigation-list,
+.header-address{
     display: flex;
 }
+
+.phone-header{
+    margin-left: 50px;
+}
+
