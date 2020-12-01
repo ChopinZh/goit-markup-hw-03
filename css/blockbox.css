@@ -81,7 +81,7 @@ ul {
 /*==========End Header=========*/
 /*===========Booking =====*/
 
-.booking-section{   
+.booking{   
     background: var(--main-background);
 }
 
@@ -274,22 +274,20 @@ img{
     display: block;
 }
 
-
------- as alesha
-
 .header{
     padding-top:24px;
     padding-bottom:25px;
-}
-
-.header .container{
-    display: flex;
-    align-items: center;
 }
 .container{
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+ 
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -297,7 +295,7 @@ img{
     margin-right:93px;
 }
 
-.header .contacts-header{
+.contacts-header{
     margin-left:auto;
     margin-right: 50px;
 
@@ -320,3 +318,37 @@ img{
     margin-left: 50px;
 }
 
+.booking{
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+/*--section container---*/
+
+.main-title-div{
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+}
+
+.button-booking-section{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;    
+}
+
+.list-characteristics-text{
+    display:flex;
+    position: absolute;
+    width: 1170px;
+    height: 101px;
+    padding-left: 215px;
+    padding-top: 774px;
+}
