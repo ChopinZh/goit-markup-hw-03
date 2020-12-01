@@ -24,6 +24,33 @@ ul {
     list-style: none;
   }
 
+h1, 
+h2, 
+h3,
+h4, 
+ul,
+p{
+    margin:0;
+}
+
+ul{
+    padding: 0;
+}
+
+img{
+    display: block;
+}
+
+.container{
+    width:1200px;
+    padding:0 15px;
+    margin:auto;
+}
+
+.section{
+    padding:94px 0px;
+}
+
 /*===========Header========*/
 .logo{
     font-family:var(--secondary-font);
