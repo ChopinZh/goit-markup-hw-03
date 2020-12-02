@@ -291,7 +291,7 @@ img{
 .position{
     font-weight:400;
     color: var(--secondary-color);
-    
+
 }
 
 .team-list{
@@ -313,7 +313,14 @@ img{
 
 .footer{
     background:var(--main-background);
-    }
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contacts-footer-item{
+    flex-direction: column;
+    display:flex;
+}
 
 .adress-footer,
 .email-footer,
@@ -332,6 +339,18 @@ img{
     color:#FFFFFF ;
 }
 
+.adress-footer{
+    margin-top: 20px;
+}
+
+
+.email-footer{
+    margin-top: 9px;
+    margin-bottom:9px;
+}
+
+
+
 .link{
     font-style:normal;
 }
@@ -348,7 +367,26 @@ img{
     line-height: 1.62;
     letter-spacing: 0.03em;
     color:var(--main-color);
+    border:none;
+    padding:6px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
 }
+
+.button-list{
+    display:flex;
+    margin-bottom: 20px;
+    height: 38px;
+    justify-content: center;
+}
+
+.button-item{
+    margin-top:30px;
+    background: var(--color-accent-2);
+    border:1px solid #eee
+}
+
 
 .button-name:hover{
     background-color:var(--color-accent);
@@ -363,6 +401,10 @@ img{
     line-height: 2;
     color:var(--main-color);
     letter-spacing: 0.06em;
+}
+
+.project-illustration{
+    padding:20px 24px;
 }
 
 .project-link{
