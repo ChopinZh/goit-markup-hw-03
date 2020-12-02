@@ -47,10 +47,10 @@ img{
     margin:auto;
 }
 
-.about-services{
-    padding:94px 0px;
-}
 
+.section{
+    padding: 94px 0px;
+}
 /*===========Header========*/
 
 .header{
@@ -77,6 +77,10 @@ img{
 }
 
 .header .contacts-header{
+    margin-left: auto;
+}
+
+.header .address{
     margin-left: auto;
 }
 
@@ -226,6 +230,7 @@ img{
     text-align: center;
     color:var(--main-color);
     letter-spacing: 0.03em;
+    margin-bottom:50px;
 }
 
 .character-name{
@@ -251,7 +256,7 @@ img{
     display: flex;
 }
 
-.service-image:not(:last-child){
+.service-depiction-item:not(:last-child){
     margin-right: 30px;
 }
 
@@ -260,7 +265,7 @@ img{
 }
 
 .about-services{
-    padding-top:94px 0px;
+    padding-top:94px;
 }
 
 .about-services .list{
@@ -275,9 +280,7 @@ img{
     margin-bottom: 10px;
 }
 
-.service-title{
-    margin-bottom: 50px;
-}
+
 
   /*===========End Characteristics=====*/
 
@@ -289,6 +292,7 @@ img{
 .team-list{
     display:flex;
 }
+
 .member-name,
 .position{
     font-family: var(--main-font);
@@ -386,6 +390,8 @@ img{
     border-radius: 4px;
     cursor: pointer;
     text-align: center;
+    height: 38px;
+
 }
 
 .button-item:not(:last-child){
@@ -446,14 +452,4 @@ img{
     color: #FFF;
 }
 
-
-.section-portfolio{
-    left: 215px;
-    top: 174px;
-    margin-bottom:94px;
-}
-
-.portfolio-body .header{
-    margin-bottom:94px;
-}
 /* end of portfolio*/
