@@ -28,13 +28,13 @@ h1,
 h2, 
 h3,
 h4, 
-ul,
 p{
     margin:0;
 }
 
 ul{
     padding: 0;
+    margin:0;
 }
 
 img{
@@ -47,7 +47,7 @@ img{
     margin:auto;
 }
 
-.section{
+.about-services{
     padding:94px 0px;
 }
 
@@ -76,7 +76,7 @@ img{
     letter-spacing: 0.03em;
 }
 
-.header .address{
+.header .contacts-header{
     margin-left: auto;
 }
 
@@ -85,10 +85,11 @@ img{
 }
 
 
-.navigation-text-item:not(:last-child),
+.navigation-list-item:not(:last-child),
 .contacts-header-item:not(:last-child){
     margin-right: 50px;
 }
+
 
 .navigation{
     display: flex;
@@ -108,6 +109,7 @@ img{
 .phone-header{
     color:var(--secondary-color);
 }
+
 .navigation-text,
 .email-header,
 .phone-header{
@@ -150,7 +152,6 @@ img{
     text-align: center;
 }
 
-
 .visually-hidden {
     font-family: var(--main-font);
     font-weight: 700;
@@ -164,7 +165,7 @@ img{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 
 .main-title{
@@ -182,7 +183,7 @@ img{
 }
 
 .booking-section .button{
-    min-width: 200;
+    min-width: 200px;
     height: 50px;
     box-shadow: 0px 4px rgba(0,0, 0, 0.15);
     border-radius: 4px;
@@ -195,7 +196,7 @@ img{
  .button{
     font-family: var(--main-font);
     color: var(--color-accent-2);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     text-align: center;
@@ -206,8 +207,60 @@ img{
 /*===========End Booking=====*/
 
 /*===========Characteristics=====*/
+
+
+.characteristics-section{
+    padding-top: 94px;
+}
+
+.characteristics-section .list{
+    display: flex;
+}
+
+.undertitle{
+    font-family: var(--main-font);
+    font-style:normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color:var(--main-color);
+    letter-spacing: 0.03em;
+}
+
+.character-name{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color:var(--main-color);
+    letter-spacing: 0.03em;
+    margin-bottom:10px;
+}
+.service-item-description{
+    font-family: var(--main-font);
+    font-weight:normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-color);
+    letter-spacing: 0.03em;
+}
+
+.service-image{
+    display: flex;
+}
+
+.service-image:not(:last-child){
+    margin-right: 30px;
+}
+
+.service-characteristics:not(:last-child){
+    margin-right: 30px;
+}
+
 .about-services{
-    padding-top:94px;
+    padding-top:94px 0px;
 }
 
 .about-services .list{
@@ -226,55 +279,16 @@ img{
     margin-bottom: 50px;
 }
 
-
-
-
-
-
-.undertitle{
-    font-family: var(--main-font);
-    font-style:normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    color:var(--main-color);
-    letter-spacing: 0.03em;
-
-}
-
-.character-name{
-    font-family: var(--main-font);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color:var(--main-color);
-    letter-spacing: 0.03em;
-}
-.service-item-description{
-    font-family: var(--main-font);
-    font-weight:normal;
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--secondary-color);
-    letter-spacing: 0.03em;
-}
-
-.service-image{
-    display: flex;
-
-}
-
-.service-image:not(:last-child){
-    margin-right: 30px;
-}
-
-
   /*===========End Characteristics=====*/
 
 /* OUR TEAM*/
+.team-section{
+    background-color:#f5f4fa;
+}
 
+.team-list{
+    display:flex;
+}
 .member-name,
 .position{
     font-family: var(--main-font);
@@ -322,7 +336,7 @@ img{
     display:flex;
 }
 
-.adress-footer,
+.address-footer,
 .email-footer,
 .phone-footer{
     font-family: var(--main-font);
@@ -333,13 +347,13 @@ img{
     color:rgba(255, 255, 255, 0.6);
 }
 
-.adress-footer:hover,
+.address-footer:hover,
 .email-footer:hover,
 .phone-footer:hover{
     color:#FFFFFF ;
 }
 
-.adress-footer{
+.address-footer{
     margin-top: 20px;
 }
 
@@ -374,6 +388,20 @@ img{
     text-align: center;
 }
 
+.button-item:not(:last-child){
+    margin-right: 8px;
+}
+
+.portfolio-image-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.project-info-list{
+    margin-top:30px;
+    background:var(--color-accent-2);
+    border:1px solid #eee;
+}
 .button-list{
     display:flex;
     margin-bottom: 20px;
@@ -381,12 +409,11 @@ img{
     justify-content: center;
 }
 
-.button-item{
-    margin-top:30px;
-    background: var(--color-accent-2);
-    border:1px solid #eee
-}
 
+.project-illustration{
+    padding: 20px 24px;
+}
+    
 
 .button-name:hover{
     background-color:var(--color-accent);
@@ -403,10 +430,6 @@ img{
     letter-spacing: 0.06em;
 }
 
-.project-illustration{
-    padding:20px 24px;
-}
-
 .project-link{
     font-family: var(--main-font);
 }
@@ -419,7 +442,18 @@ img{
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
-.adress-footer{
+.address-footer{
     color: #FFF;
+}
+
+
+.section-portfolio{
+    left: 215px;
+    top: 174px;
+    margin-bottom:94px;
+}
+
+.portfolio-body .header{
+    margin-bottom:94px;
 }
 /* end of portfolio*/
