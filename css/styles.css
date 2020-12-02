@@ -218,6 +218,19 @@ img{
     margin-right: 30px;
 }
 
+.service-charactestics .character-name{
+    margin-bottom: 10px;
+}
+
+.service-title{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
 .undertitle{
     font-family: var(--main-font);
     font-style:normal;
@@ -232,6 +245,7 @@ img{
 
 .character-name{
     font-family: var(--main-font);
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -246,6 +260,17 @@ img{
     color: var(--secondary-color);
     letter-spacing: 0.03em;
 }
+
+.service-image{
+    display: flex;
+
+}
+
+.service-image:not(:last-child){
+    margin-right: 30px;
+}
+
+
   /*===========End Characteristics=====*/
 
 /* OUR TEAM*/
@@ -260,12 +285,28 @@ img{
 .member-name{
     font-weight:500;
     color:var(--main-color);
+    margin-bottom: 10px;
 }
 
 .position{
     font-weight:400;
     color: var(--secondary-color);
+    
 }
+
+.team-list{
+    display: flex;
+
+}
+
+.member-info:not(:last-child){
+    margin-right: 30px;
+}
+
+.about-each-member{
+    padding: 30px 10px;
+}
+
 
 /* end of the OUR TEAM*/
 /* Footer*/
