@@ -44,7 +44,7 @@ img{
 .container{
     width:1200px;
     padding:0 15px;
-    margin:auto;
+    margin: auto;
 }
 
 
@@ -72,7 +72,7 @@ img{
     font-family:var(--secondary-font);
     font-weight: 700;
     font-size: 26px;  
-    line-height: 1.19;
+    line-height: 1.192;
     letter-spacing: 0.03em;
 }
 
@@ -147,7 +147,7 @@ img{
     background: var(--main-background);
 }
 
-.booking-section .container{
+.booking-section-part{
     padding-top: 200px;
     padding-bottom: 200px;
     display: flex;
@@ -195,6 +195,7 @@ img{
     cursor: pointer;
     padding:10px 32px;
     margin:auto;
+    align-items: center;
 }
 
  .button{
@@ -217,10 +218,13 @@ img{
     padding-top: 94px;
 }
 
-.characteristics-section .list{
+.characteristics-section-list{
     display: flex;
 }
 
+.service-charactestics:not(:last-child){
+    margin-right: 30px;
+}
 .undertitle{
     font-family: var(--main-font);
     font-style:normal;
@@ -245,7 +249,7 @@ img{
 }
 .service-item-description{
     font-family: var(--main-font);
-    font-weight:normal;
+    font-weight:400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--secondary-color);
@@ -304,12 +308,16 @@ img{
     font-weight:500;
     color:var(--main-color);
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .position{
     font-weight:400;
     color: var(--secondary-color);
-
+    font-size: 16px;
+    line-height: 1.1876;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .team-list{
@@ -321,8 +329,15 @@ img{
     margin-right: 30px;
 }
 
+.team-list{
+width: 270px;
+height: 368px;
+}
+
 .about-each-member{
     padding: 30px 10px;
+    background: #FFFFFF;
+    height: 108px;
 }
 
 
@@ -362,9 +377,9 @@ img{
 }
 
 
-.email-footer{
+.contacts-footer-item{
     margin-top: 9px;
-    margin-bottom:9px;
+    margin-bottom: 9px;
 }
 
 
@@ -391,6 +406,7 @@ img{
     cursor: pointer;
     text-align: center;
     height: 38px;
+    justify-content: center;
 
 }
 
@@ -402,7 +418,10 @@ img{
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
+    height: 1272px;
+    padding: 0px;
 }
+
 .project-info-list{
     margin-top:30px;
     background:var(--color-accent-2);
