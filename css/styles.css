@@ -372,13 +372,12 @@ height: 368px;
     color:#FFFFFF ;
 }
 
-.address-footer{
+.footer .list{
     margin-top: 20px;
 }
 
 
-.contacts-footer-item{
-    margin-top: 9px;
+.contacts-footer-item:not(:last-child){
     margin-bottom: 9px;
 }
 
@@ -418,18 +417,19 @@ height: 368px;
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
-    height: 1272px;
     padding: 0px;
+
 }
 
+
 .project-info-list{
-    margin-top:30px;
     background:var(--color-accent-2);
     border:1px solid #eee;
+    margin-bottom: 30px;
 }
 .button-list{
     display:flex;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     height: 38px;
     justify-content: center;
 }
