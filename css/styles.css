@@ -329,10 +329,7 @@ img{
     margin-right: 30px;
 }
 
-.team-list{
-width: 270px;
-height: 368px;
-}
+
 
 .about-each-member{
     padding: 30px 10px;
@@ -372,7 +369,7 @@ height: 368px;
     color:#FFFFFF ;
 }
 
-.footer .list{
+.footer .contacts-footer{
     margin-top: 20px;
 }
 
@@ -418,8 +415,9 @@ height: 368px;
     flex-wrap:wrap;
     justify-content: space-between;
     padding: 0px;
-
+    margin-bottom: -30px;
 }
+
 
 
 .project-info-list{
